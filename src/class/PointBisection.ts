@@ -1,5 +1,5 @@
 import { Matrix } from "mathjs";
 
-export default class GraphBisection {
+export default class PointBisection {
   constructor (AdjacencyMatrix: Matrix) {}
 }

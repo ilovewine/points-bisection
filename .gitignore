@@ -126,3 +126,5 @@ out
 gen
 
 dist
+out.txt
+in.txt

@@ -2,9 +2,11 @@ import InputData from "../interface/InputData";
 import fs from "fs";
 import os from "os";
 import Point from "../interface/Point";
+import processArg from "./processArg";
 
-export default function getData (filename: string): InputData {
-  const data = fs.readFileSync(filename).toString().split(os.EOL);
+export default function getData (): InputData {
+  const filename = processArg("in");
+  const data = fs.readFileSync(filename).toString().split(os.EOL).filter(el => el.length);
   const n: number = parseInt(data[0]);
   const dist: number = parseFloat(data[1]);
   const points: Point[] = data

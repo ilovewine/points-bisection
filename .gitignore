@@ -128,3 +128,5 @@ gen
 dist
 out.txt
 in.txt
+./**/.ipynb_checkpoints/
+.ipynb_checkpoints/

@@ -16,5 +16,5 @@
 
 ## Mathematical Model
 
-All information can be found in `theory.ipynb`. In order to access the file, you must open it using Jupyter Lab.
+All information can be found in `theory.ipynb`. In order to access the file, you must open it using Jupyter Lab (or you can simply click on it in Github).
 
